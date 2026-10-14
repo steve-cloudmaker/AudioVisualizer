@@ -1,0 +1,13 @@
+{
+  "name": "Placeholder Atlas",
+  "svgResource": "micrographic-placeholder",
+  "layers": [
+    { "id": "sun", "modulator": "rms", "property": "scale", "amount": 0.6 },
+    { "id": "flame", "modulator": "bass", "property": "scale", "amount": 1 },
+    { "id": "spark", "modulator": "onset", "property": "opacity", "amount": 1 },
+    { "id": "cloud", "modulator": "treble", "property": "opacity", "amount": 0.8 },
+    { "id": "band-low", "modulator": "band", "bandIndex": 4, "property": "fillBrightness", "amount": 1 },
+    { "id": "band-high", "modulator": "band", "bandIndex": 48, "property": "fillBrightness", "amount": 1 },
+    { "id": "key-a", "modulator": "chroma", "chromaIndex": 9, "property": "scale", "amount": 0.7 }
+  ]
+}
